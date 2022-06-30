@@ -40,6 +40,10 @@ a {
   margin-bottom: 50px;
 }
 
+.background-lightblue {
+  background-color: #3882f6;
+}
+
 .background-blue {
   background-color: #1F2937;
   flex: auto;
