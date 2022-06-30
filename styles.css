@@ -44,6 +44,11 @@ a {
   margin-bottom: 50px;
 }
 
+.red {
+  background-color: red;
+  flex: auto;
+}
+
 .background-blue {
   background-color: #1F2937;
   flex: auto;
@@ -171,11 +176,16 @@ a {
   margin-top: 100px;
 }
 
-.container3, .container4, .container5{
+.container3, .container4, .container5, .container6 {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: auto;
+}
+
+.container6 {
+  margin-bottom: 34px;
+  margin-top: 34px;
 }
 
 .container4 {
@@ -185,6 +195,6 @@ a {
 .box {
   width: 160px;
   height: 160px;
-  border: 2px solid #3882f6;
+  border: 4px solid #3882f6;
   color: white;
 }
